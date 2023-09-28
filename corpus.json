@@ -1,0 +1,129 @@
+{
+    "intenciones": [
+        {
+            "tag": "saludo",
+            "patrones": [
+                "hola",
+                "que tal",
+                "buenos dias",
+                "como estas"
+            ],
+            "respuestas": [
+                "hola",
+                "que tal",
+                "hola, gracias por visitar",
+                "buenas, en que puedo ayudarte?",
+                "hola :)",
+                "hola, que puedo hacer por ti?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patrones": [
+                "adios",
+                "hasta luego",
+                "muchas gracias, adios"
+            ],
+            "respuestas": [
+                "adios",
+                "hasta la proxima",
+                "adios, espero haber sido de ayuda",
+                "hasta luego"
+            ]           
+        },
+        {
+            "tag": "gracias",
+            "patrones": [
+                "muchas gracias",
+                "gracias",
+                "muchas gracias, adios"
+            ],
+            "respuestas": [
+                "de nada! :)",
+                "gracias a ti por visitar",
+                "de nada, espero haber sido de ayuda.",
+                "de nada, necesitas ayuda con algo mas?",
+                "de nada, puedo ayudarte con alguna otra duda?"
+            ]             
+        },
+        {
+            "tag": "cursos",
+            "patrones": [
+                "que estudios hay en el centro?",
+                "que puedo estudiar aqui?",
+                "cual es la lista de estudios?",
+                "se puede cursar FP?",
+                "necesito información sobre los estudios que se pueden cursar",
+                "hay una lista de cursos disponibles?",
+                "que puedo estudiar?",
+                "quiero informacion sobre los estudios",
+                "quiero informacion sobre los cursos",
+                "quiero saber que puedo estudiar"
+            ],
+            "respuestas": [
+                "en el IES Agora puedes estudiar ESO, bachillerato y FP media y superior",
+                "para ver la lista actualizada de cursos visite nuestra pagina web",
+                "Ofrecemos ESO, bachillerato y formacion profesional"
+            ] 
+        },
+        {
+            "tag":"telefono",
+            "patrones":[
+                "me puedes decir vuestro telefono",
+                "necesito contactar con vosotros por teléfono",
+                "puedo llamar a vuestro teléfono?",
+                "teneis un teléfono disponible",
+                "a qué teléfono puedo llamar?",
+                "tienes un telefono disponible",
+                "quiero llamar a vuestro telefono",
+                "quiero hablar por telefono"
+            ],
+            "respuestas":[
+                "nuestro telefono es 927 00 67 16",
+                "puedes llamar al telefono 927 00 67 16",
+                "podemos atenderte desde el telefono 927 00 67 16",
+                "puedes resolver tus dudas llamando al telefono 927 00 67 16"
+            ]
+        },
+        {
+            "tag":"correo",
+            "patrones":[
+                "necesito contactar con vosotros por correo",
+                "¿puedo escribiros un correo electrónico",
+                "¿teneis un correo disponible?",
+                "cual es vuestro correo",
+                "necesito escribir un correo",
+                "a que correo puedo escribir?",
+                "a que correo electrónico puedo escribir?"
+            ],
+            "respuestas":[
+                "nuestro correo electronico es secretaria@iesagora.es",
+                "puedes escribir al correo secretaria@iesagora.es",
+                "podemos responderte desde el correo secretaria@iesagora.es",
+                "puedes resolver tus dudas escribiendo al correo secretaria@iesagora.es"
+            ]
+        },
+        {
+            "tag":"chiste",
+            "patrones":[
+                "cuentame un chiste",
+                "dime una broma",
+                "dime un chiste",
+                "sabes algun chiste?",
+                "dime algo gracioso",
+                "dime un chiste gracioso",
+                "puedes contar un chiste?",
+                "dime un chiste gracioso",
+                "dime algo gracioso",
+                "te sabes un chiste?",
+                "te sabes un chiste gracioso?"
+            ],
+            "respuestas":[
+                "que le dice una iguana a su hermana gemela? somos iguanitas",
+                "que es un pez en el cine? un mero espectador",
+                "como se queda un mago después de comer? magordito"
+            ]
+        }
+
+    ]
+}
